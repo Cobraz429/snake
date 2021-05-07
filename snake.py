@@ -5,8 +5,8 @@ from freegames import square, vector
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
-color_snake = r.choice(['black','yellow', 'gold', 'orange', 'red', 'maroon', 'violet', 'magenta'])
-color_comida = r.choice(['green','purple', 'blue', 'cyan', 'turquoise', 'darkgreen', 'brown', 'gray'])
+color_snake = r.choice(['black','yellow', 'orange', 'violet', 'magenta'])
+color_comida = r.choice(['green','purple', 'blue', 'brown', 'gray'])
 
 
 def change(x, y):
