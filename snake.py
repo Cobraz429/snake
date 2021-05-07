@@ -9,6 +9,10 @@ color_snake = r.choice(['black','yellow', 'orange', 'violet', 'magenta'])
 color_comida = r.choice(['green','purple', 'blue', 'brown', 'gray'])
 
 
+# Codigo modificado por:
+# Autor: Erick Potts Berruga
+# Autor: Jose Gabriel Arana Jacuinde
+
 def change(x, y):
     "Change snake direction."
     aim.x = x
