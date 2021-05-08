@@ -14,7 +14,7 @@ aim = vector(0, -10)
 
 
 #Define el color de la comida y de la serpiente al iniciar el juego
-color_snake = r.choice(['black','yellow', 'orange', 'violet', 'magenta'])
+color_snake = r.choice(['green','purple', 'blue', 'brown', 'gray'])
 color_comida = r.choice(['green','purple', 'blue', 'brown', 'gray'])
 
 
